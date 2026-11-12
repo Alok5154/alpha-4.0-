@@ -1200,7 +1200,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               <h3 className="price-name">Creator Sprint</h3>
               <p className="price-desc">Engineered for viral TikTok, Instagram Reels, and YouTube Shorts scaling.</p>
               <div className="price-amount">
-                <span className="price-val">{currency === 'INR' ? '₹5,999' : '$69'}</span>
+                <span className="price-val">{currency === 'INR' ? '₹5,999' : '$99'}</span>
                 <span className="price-period">/ month</span>
               </div>
               <ul className="price-features">
@@ -1227,7 +1227,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               </ul>
               <a
                 className="price-btn"
-                href={`https://wa.me/919217540120?text=${encodeURIComponent(`Hi The Alpha Edit, I want to get started with the Creator Sprint Plan (${currency === 'INR' ? '₹5,999' : '$69'}/mo).`)}`}
+                href={`https://wa.me/919217540120?text=${encodeURIComponent(`Hi The Alpha Edit, I want to get started with the Creator Sprint Plan (${currency === 'INR' ? '₹5,999' : '$99'}/mo).`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor
@@ -1242,7 +1242,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               <h3 className="price-name">Cinematic YouTube</h3>
               <p className="price-desc">Full-service long-form YouTube mastery, DaVinci grading, and viral hooks.</p>
               <div className="price-amount">
-                <span className="price-val">{currency === 'INR' ? '₹11,999' : '$149'}</span>
+                <span className="price-val">{currency === 'INR' ? '₹11,999' : '$199'}</span>
                 <span className="price-period">/ month</span>
               </div>
               <ul className="price-features">
@@ -1273,7 +1273,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               </ul>
               <a
                 className="price-btn"
-                href={`https://wa.me/919217540120?text=${encodeURIComponent(`Hi The Alpha Edit, I want to claim a slot for the Cinematic YouTube Plan (${currency === 'INR' ? '₹11,999' : '$149'}/mo).`)}`}
+                href={`https://wa.me/919217540120?text=${encodeURIComponent(`Hi The Alpha Edit, I want to claim a slot for the Cinematic YouTube Plan (${currency === 'INR' ? '₹11,999' : '$199'}/mo).`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor
@@ -1288,7 +1288,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               <h3 className="price-name">Brand Pipeline</h3>
               <p className="price-desc">Custom production pipeline for high-growth D2C brands, TVCs, and studios.</p>
               <div className="price-amount">
-                <span className="price-val">{currency === 'INR' ? '₹19,999' : '$249'}</span>
+                <span className="price-val">{currency === 'INR' ? '₹19,999' : '$299'}</span>
                 <span className="price-period">/ month</span>
               </div>
               <ul className="price-features">
@@ -1319,7 +1319,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               </ul>
               <a
                 className="price-btn"
-                href={`https://wa.me/919217540120?text=${encodeURIComponent(`Hi The Alpha Edit, I want to discuss the Brand Pipeline Plan (${currency === 'INR' ? '₹19,999' : '$249'}/mo) for my company.`)}`}
+                href={`https://wa.me/919217540120?text=${encodeURIComponent(`Hi The Alpha Edit, I want to discuss the Brand Pipeline Plan (${currency === 'INR' ? '₹19,999' : '$299'}/mo) for my company.`)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 data-cursor
