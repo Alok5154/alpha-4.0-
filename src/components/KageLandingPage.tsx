@@ -1411,6 +1411,40 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
 
         {/* Footer */}
         <footer className="foot" data-cam="8">
+          {/* Pre-Footer Action Banner */}
+          <div className="foot-pre-banner" data-rv="up">
+            <div className="foot-pre-content">
+              <div className="foot-status-tag">
+                <span className="foot-live-dot" />
+                <span>Q4 2026 PRODUCTION INTAKE ACTIVE</span>
+              </div>
+              <h2>Ready to scale your content to millions?</h2>
+              <p>Partner with Director Alok Verma. Cinema-grade post-production engineered for conversion and retention.</p>
+            </div>
+            <div className="foot-pre-actions">
+              <a
+                className="foot-pre-btn primary"
+                href="https://wa.me/919217540120"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor
+              >
+                <svg viewBox="0 0 24 24" className="foot-btn-icon"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>Book On WhatsApp</span>
+                <svg viewBox="0 0 14 14" fill="none" className="foot-arrow-svg">
+                  <path d="M3 11 11 3M5 3h6v6" stroke="currentColor" strokeWidth="1.5" />
+                </svg>
+              </a>
+              <a
+                className="foot-pre-btn secondary"
+                href="mailto:thealphaedit101@gmail.com"
+                data-cursor
+              >
+                <span>Official Email</span>
+              </a>
+            </div>
+          </div>
+
           <div className="foot-grid">
             {/* Brand Column */}
             <div className="foot-brand">
@@ -1422,102 +1456,147 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
                 />
                 <div className="foot-logo-text">
                   <h3>THE ALPHA EDIT</h3>
-                  <span>VIDEO EDITING & POST SUITE</span>
+                  <span>POST-PRODUCTION & CINEMA SUITE</span>
                 </div>
               </div>
               <p>
-                The Alpha Edit is an elite video post-production agency founded by <strong>Alok Verma</strong>, specializing in high-converting commercial reels, documentary storytelling, and viral creator growth.
+                An elite video post-production agency founded & directed by <strong>Alok Verma</strong>. We engineer high-converting commercial reels, YouTube retention pacing, and documentary narratives for ambitious brands and creators worldwide.
               </p>
+
+              {/* Studio Operational Pulse */}
+              <div className="foot-studio-pill">
+                <span className="foot-pulse-dot" />
+                <span>Noida Studio (IST) · Online · 24-48H Turnaround</span>
+              </div>
+
+              {/* Social Pills */}
               <div className="foot-socials">
                 <a
-                  className="foot-social-link"
+                  className="foot-social-link wa"
                   href="https://wa.me/919217540120"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-cursor
+                  title="WhatsApp Consultation"
                 >
                   <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
-                  WhatsApp
+                  <span>WhatsApp</span>
                 </a>
                 <a
-                  className="foot-social-link"
+                  className="foot-social-link ig"
                   href="https://www.instagram.com/thealphaedit.in?igsh=MWF5N3puMThuenk2eg%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-cursor
+                  title="Instagram Reel Vault"
                 >
                   <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                  Instagram
+                  <span>Instagram</span>
                 </a>
                 <a
-                  className="foot-social-link"
+                  className="foot-social-link li"
                   href="https://www.linkedin.com/company/thealphaedit/?viewAsMember=true"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-cursor
+                  title="LinkedIn Network"
                 >
                   <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                  LinkedIn
+                  <span>LinkedIn</span>
                 </a>
                 <a
-                  className="foot-social-link"
+                  className="foot-social-link mail"
                   href="mailto:thealphaedit101@gmail.com"
                   data-cursor
+                  title="Send Direct Inquiry"
                 >
                   <svg viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l9.518 7.713 9.518-7.713v11.817h-19.036z"/></svg>
-                  Email
+                  <span>Email</span>
                 </a>
               </div>
             </div>
 
-            {/* Direct Contact */}
-            <div>
-              <h4>Direct Contact</h4>
-              <div className="foot-contact-item">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                <div>
-                  <span className="foot-contact-label">Call / WhatsApp</span>
-                  <a href="https://wa.me/919217540120" target="_blank" rel="noopener noreferrer" data-cursor>+91 9217540120</a>
+            {/* Direct Contact Column */}
+            <div className="foot-col foot-contact-col">
+              <h4>Direct Inquiries</h4>
+              <div className="foot-contact-card">
+                <div className="foot-contact-item">
+                  <div className="foot-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  </div>
+                  <div>
+                    <span className="foot-contact-label">Call / WhatsApp</span>
+                    <a href="https://wa.me/919217540120" target="_blank" rel="noopener noreferrer" data-cursor>+91 9217540120</a>
+                  </div>
                 </div>
-              </div>
-              <div className="foot-contact-item">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                <div>
-                  <span className="foot-contact-label">Official Email</span>
-                  <a href="mailto:thealphaedit101@gmail.com" data-cursor>thealphaedit101@gmail.com</a>
+
+                <div className="foot-contact-item">
+                  <div className="foot-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  </div>
+                  <div>
+                    <span className="foot-contact-label">Official Email</span>
+                    <a href="mailto:thealphaedit101@gmail.com" data-cursor>thealphaedit101@gmail.com</a>
+                  </div>
                 </div>
-              </div>
-              <div className="foot-contact-item">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                <div>
-                  <span className="foot-contact-label">Production Studio</span>
-                  <span>Noida, Uttar Pradesh, India & Global Remote</span>
+
+                <div className="foot-contact-item">
+                  <div className="foot-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  </div>
+                  <div>
+                    <span className="foot-contact-label">Studio Location</span>
+                    <span>Noida, Uttar Pradesh, India</span>
+                  </div>
+                </div>
+
+                <div className="foot-contact-item">
+                  <div className="foot-icon-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                  </div>
+                  <div>
+                    <span className="foot-contact-label">Collaboration</span>
+                    <span>Global Remote · Frame.io & Slack</span>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Services */}
-            <div>
-              <h4>Services</h4>
-              <ul>
-                <li><a href="#gate" data-cursor onClick={(e) => handleScrollTo(e, '#gate')}>Commercial Video Editing</a></li>
-                <li><a href="#pathways" data-cursor onClick={(e) => handleScrollTo(e, '#pathways')}>Creator YouTube Retainers</a></li>
-                <li><a href="#lessons" data-cursor onClick={(e) => handleScrollTo(e, '#lessons')}>DaVinci ACES Color Grading</a></li>
-                <li><a href="#lessons" data-cursor onClick={(e) => handleScrollTo(e, '#lessons')}>Spatial Sound Design & Foley</a></li>
-                <li><a href="#lessons" data-cursor onClick={(e) => handleScrollTo(e, '#lessons')}>Motion Graphics & 3D VFX</a></li>
+            {/* Services Column */}
+            <div className="foot-col">
+              <h4>Capabilities</h4>
+              <ul className="foot-nav-list">
+                <li><a href="#gate" data-cursor onClick={(e) => handleScrollTo(e, '#gate')}><span>Commercial Ads & TVCs</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#pathways" data-cursor onClick={(e) => handleScrollTo(e, '#pathways')}><span>Viral Creator Retainers</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#lessons" data-cursor onClick={(e) => handleScrollTo(e, '#lessons')}><span>DaVinci ACES Color Grading</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#lessons" data-cursor onClick={(e) => handleScrollTo(e, '#lessons')}><span>Spatial Sound & Foley Mix</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#lessons" data-cursor onClick={(e) => handleScrollTo(e, '#lessons')}><span>Motion Graphics & 3D VFX</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
               </ul>
             </div>
 
-            {/* Quick Links */}
-            <div>
-              <h4>Agency</h4>
-              <ul>
-                <li><a href="#top" data-cursor onClick={(e) => handleScrollTo(e, '#top')}>Studio Showreel</a></li>
-                <li><a href="#pathways" data-cursor onClick={(e) => handleScrollTo(e, '#pathways')}>Portfolio Vault</a></li>
-                <li><a href="#results" data-cursor onClick={(e) => handleScrollTo(e, '#results')}>Client Case Studies</a></li>
-                <li><a href="#pricing" data-cursor onClick={(e) => handleScrollTo(e, '#pricing')}>Pricing Retainers</a></li>
-                <li><a href="#faq" data-cursor onClick={(e) => handleScrollTo(e, '#faq')}>Frequently Asked Questions</a></li>
+            {/* Quick Links Column */}
+            <div className="foot-col">
+              <h4>Navigation</h4>
+              <ul className="foot-nav-list">
+                <li><a href="#top" data-cursor onClick={(e) => handleScrollTo(e, '#top')}><span>Studio Showreel</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#pathways" data-cursor onClick={(e) => handleScrollTo(e, '#pathways')}><span>Featured Work Vault</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#results" data-cursor onClick={(e) => handleScrollTo(e, '#results')}><span>Client Metrics & ROAS</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#pricing" data-cursor onClick={(e) => handleScrollTo(e, '#pricing')}><span>Retainer Pricing</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
+                <li><a href="#faq" data-cursor onClick={(e) => handleScrollTo(e, '#faq')}><span>Agency FAQs</span><svg viewBox="0 0 12 12"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" strokeWidth="1.2" fill="none"/></svg></a></li>
               </ul>
+            </div>
+          </div>
+
+          {/* Studio Tech Stack & Certification Quality Badges */}
+          <div className="foot-badges-row">
+            <span className="foot-badges-label">POST-PRODUCTION SUITE:</span>
+            <div className="foot-badge-pills">
+              <span className="foot-badge">DaVinci Resolve Studio 19</span>
+              <span className="foot-badge">Premiere Pro</span>
+              <span className="foot-badge">After Effects</span>
+              <span className="foot-badge">ACES 1.3 Color</span>
+              <span className="foot-badge">Apple ProRes 4444</span>
+              <span className="foot-badge">Dolby Foley Mix</span>
             </div>
           </div>
 
@@ -1531,6 +1610,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
               className="foot-back-top-btn"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               data-cursor
+              aria-label="Back to top of page"
             >
               <span>Back to top</span>
               <svg viewBox="0 0 14 14" fill="none">
