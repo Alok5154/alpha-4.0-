@@ -798,11 +798,14 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
 
           <div className="cards" id="cards">
             {/* Card 1: Commercials & TVCs */}
-            <article
+            <a
               className="card stagger-1"
               data-rv="up"
               data-cursor
-              onClick={() => window.open(`https://wa.me/919217540120?text=${encodeURIComponent('Hi The Alpha Edit, I want to see sample reels for Commercial & Brand Edits.')}`, '_blank')}
+              href={`https://wa.me/919217540120?text=${encodeURIComponent('Hi The Alpha Edit, I want to see sample reels for Commercial & Brand Edits.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <div className="card-fr">
                 <span className="card-tag">Commercial Ads</span>
@@ -823,14 +826,17 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
                   </svg>
                 </span>
               </div>
-            </article>
+            </a>
 
             {/* Card 2: Viral Creator Series */}
-            <article
+            <a
               className="card stagger-2"
               data-rv="up"
               data-cursor
-              onClick={() => window.open(`https://wa.me/919217540120?text=${encodeURIComponent('Hi The Alpha Edit, I want to see sample reels for YouTube & Viral Creator Edits.')}`, '_blank')}
+              href={`https://wa.me/919217540120?text=${encodeURIComponent('Hi The Alpha Edit, I want to see sample reels for YouTube & Viral Creator Edits.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <div className="card-fr">
                 <span className="card-tag">YouTube & Shorts</span>
@@ -851,14 +857,17 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
                   </svg>
                 </span>
               </div>
-            </article>
+            </a>
 
             {/* Card 3: Cinematic Documentaries */}
-            <article
+            <a
               className="card stagger-3"
               data-rv="up"
               data-cursor
-              onClick={() => window.open(`https://wa.me/919217540120?text=${encodeURIComponent('Hi The Alpha Edit, I want to see sample reels for Cinematic Documentaries & Color Grading.')}`, '_blank')}
+              href={`https://wa.me/919217540120?text=${encodeURIComponent('Hi The Alpha Edit, I want to see sample reels for Cinematic Documentaries & Color Grading.')}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ textDecoration: 'none', color: 'inherit' }}
             >
               <div className="card-fr">
                 <span className="card-tag">Cinema & Docu</span>
@@ -879,7 +888,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
                   </svg>
                 </span>
               </div>
-            </article>
+            </a>
           </div>
         </section>
 
@@ -1571,7 +1580,7 @@ export const KageLandingPage: React.FC<KageLandingPageProps> = ({
       <aside className="floating-whatsapp-widget" aria-label="WhatsApp Contact Support">
         <a
           className="whatsapp-float-btn"
-          href="https://wa.me/919217540120?text=Hi%20Alok%2C%20I%20want%20to%20discuss%20a%20video%20editing%20project%20with%20The%20Alpha%20Edit."
+          href="https://wa.me/919217540120"
           target="_blank"
           rel="noopener noreferrer"
           data-cursor
